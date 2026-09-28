@@ -1,0 +1,43 @@
+# Memory-Powered Customer Support Agent
+
+An AI-powered customer support agent that uses Hindsight for persistent memory and contextual follow-up conversations.
+
+## Features
+
+* Customer support chat
+* Persistent customer memory
+* Retrieval of relevant previous interactions
+* Context-aware AI responses
+
+## Tech Stack
+
+* Python
+* FastAPI
+* Groq
+* Hindsight
+* HTML, CSS, JavaScript
+
+## Setup
+
+1. Clone this repository.
+2. Create and activate a Python virtual environment.
+3. Install the dependencies listed in `requirements.txt`.
+4. Create a `.env` file with your API keys, using `.env.example` as a guide.
+5. Run the application using the setup instructions in the project.
+
+## Environment Variables
+
+Create a `.env` file with the following values:
+
+* `HINDSIGHT_API_KEY`
+* `GROQ_API_KEY`
+
+Never commit your actual API keys.
+
+## Demo
+
+Add your public or unlisted demo video URL here after uploading it to YouTube.
+
+## About
+
+Built as part of a hackathon exploring AI agents with persistent memory using Hindsight.
